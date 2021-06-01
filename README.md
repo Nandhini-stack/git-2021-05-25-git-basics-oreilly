@@ -7,4 +7,4 @@
 	- `git commit -m "MESSAGE"` : commit without opening editor
 - `git log`: show your commit history
 	- `git log --oneline` : condensed history
-- `git diff` : gives you difference
+- `git diff` : gives you the difference

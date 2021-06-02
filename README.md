@@ -14,9 +14,15 @@
 - `git diff HEAD~2` : diff 2 commits ago
 - `git diff <SHA> <FILE>` : diff a file against a specific commit
 
-- `git checkout <SHA> <FILE>` : revert <FILE> from <SHA> to current
+- `git checkout <SHA> <FILE>` : revert <FILE> from <SHA> to current time
 - `git checout <SHA>` : move you to <SHA>
 	- `git checkout main` : go back to main starting point
 
 - `.gitignore` : file that pattern matches files to ignore
 - `.gitkeep` : convention to keep a empty folder
+
+## remotes
+
+- `git remote add <NAME> <URL>` : <NAME=origin> point to the remote
+- `git push <WHERE> <WHAT>` : local repo -> remote
+- `git pull <WHERE> <WHAT>` : remote -> local
